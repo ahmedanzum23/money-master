@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assigment 5</title>
+        <!-- tailwind stylesheet -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- custom stylesheet -->
+        <link rel="stylesheet" href="style.css">
+
+
+    </head>
+
+    <body>
+        <header>
+            <h1 class="text-6xl text-center mt-14 font-bold text-sky-500  ">
+                STAR CALCULATOR
+            </h1>
+        </header>
+        <main>
+            <section class="mt-10 ">
+                <div class="grid   sm:grid-cols-1 lg:grid-cols-2   grid-cols-2 gap-3  responsive">
+                    <div class="image mb-8 ">
+                        <img src="pic3.jpg" alt="" srcset="">
+                    </div>
+                    <div class="bg-yellow-100	 mr-16 mb-8 cal-width   oka">
+                        <h1 class="text-2xl text-center mt-14 font-semibold">Income</h1>
+                        <!-- for income-total  -->
+                        <h1 class="text-1xl  income  mt-1 font-medium">Income: <input id="income-total"
+                                class="bg-slate-100" type="text"></h1>
+                        <br>
+                        <h1 class="text-2xl text-center mt-2 font-medium">Expenses</h1>
+                        <!-- for food  -->
+                        <h1 class="text-1xl  food  mt-1 ">Food: <input id="food-cost" class="bg-slate-100" type="text">
+                        </h1>
+                        <!-- for rent  -->
+                        <h1 class="text-1xl  rent  mt-1  last ">Rent: <input id="rent-total" class="bg-slate-100"
+                                type="text">
+                        </h1>
+                        <!-- for cloths  -->
+                        <h1 class="text-1xl  cloths  mt-1  last">Cloths: <input id="cloth-total" class="bg-slate-100"
+                                type="text"></h1>
+                        <br>
+                        <div class="button">
+                            <button class="bg-orange-500 px-4 py-2 rounded " type="button"
+                                onclick="calculate()">Calculate</button>
+                        </div>
+                        <h1 class="text-2xl text-center mt-14 font-semibold">Total Expenses: <p id="total-expensive">
+                            </p>
+                        </h1>
+                        <h1 class="text-2xl text-center mt-5 font-semibold">Balance: <p id="total-balance"></p>
+                        </h1>
+                        <div>
+                            <h1 class="text-1xl  save mr-2 mt-1 ">Save: <input id="total-save" class="bg-slate-100"
+                                    type="text">% <button class="bg-green-500 px-4 py-2 rounded " type="button"
+                                    onclick="percentage()">Save</button></h1>
+
+
+                        </div>
+                        <h1 class="text-2xl text-center mt-14 font-semibold">Saving amount: <p id="saving-amount">
+                            </p>
+                        </h1>
+                        <h1 class="text-2xl text-center mt-5 font-semibold">Remaining Balance: <p
+                                id="remaining-balance">
+                            </p>
+                        </h1>
+
+                    </div>
+                </div>
+                </div>
+            </section>
+        </main>
+        <!-- js file  -->
+        <script src="apply.js"></script>
+
+        <!-- body ended -->
+    </body>
+
+    </html>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
